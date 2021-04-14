@@ -1,0 +1,1 @@
+export { NormalLayout } from './Normal/Normal.layout';

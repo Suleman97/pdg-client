@@ -1,0 +1,17 @@
+.header {
+  padding: 2.2rem 12rem;
+  &__links {
+    &-text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22.652px;
+      line-height: 40px;
+      color: #1d2128;
+    }
+    &-divider {
+      height: 40px;
+      border-color: #e0e0e0;
+      margin: 0 3rem;
+    }
+  }
+}
