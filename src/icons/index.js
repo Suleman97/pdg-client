@@ -1,1 +1,9 @@
 export { Logo } from './Logo.icon';
+export { Star } from './Star.icon';
+export { Support } from './Support.icon'
+export { InfinityIcon } from './Infinity.icon'
+export { Secuirty } from './Security.icon';
+export { Swipe } from './Swipe.icon'
+export { Free } from './Free.icon'
+export { Heart } from './Heart.icon'
+export { Clean } from './Clean.icon'

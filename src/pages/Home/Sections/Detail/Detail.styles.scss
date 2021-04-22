@@ -1,0 +1,38 @@
+.detail-section.detail-section__light {
+  background-color: #fff;
+  .detail-section__title {
+    color: #1d2128 !important;
+  }
+  .detail-section__description {
+    color: #1d2128 !important;
+  }
+}
+.detail-section.detail-section__rtl {
+  & > .ant-row {
+    flex-flow: row-reverse;
+  }
+}
+.detail-section {
+  padding: 5rem 12rem;
+  background-color: #1d2128;
+  &__title {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6rem !important;
+    line-height: 6.9rem !important;
+    color: #ffffff !important;
+  }
+  &__description {
+    margin-top: 3rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.2652rem !important;
+    line-height: 4rem !important;
+    color: #fff;
+  }
+  &__button {
+    margin-top: 3rem;
+    max-width: 22rem;
+  }
+}

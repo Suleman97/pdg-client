@@ -12,9 +12,9 @@ export const NormalLayout = () => (
           {pages.map((page) => (
             <Route
               key={page.path}
-              excat
               path={page.path}
               component={page.component}
+              exact
             />
           ))}
         </Switch>

@@ -1,0 +1,36 @@
+.hero-section {
+  min-height: 80rem;
+  display: flex;
+  align-items: center;
+  background-image: url('../../Hero.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  &__box {
+    max-width: 50rem;
+    margin-left: 12rem;
+  }
+  &__title {
+    font-family: Oranienbaum;
+    font-size: 9.595rem !important;
+    margin-bottom: 3rem;
+  }
+  &__description {
+    max-width: 44.9rem;
+    font-size: 2.265rem;
+    margin-bottom: 3rem;
+    &-bold {
+      background: linear-gradient(90deg, #f31b5a 0%, #f04224 100%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 600;
+    }
+  }
+}
+
+.hero-section.hero-section__ltr {
+  // & > .hero-section__box {
+  flex-direction: row-reverse;
+  padding-right: 10rem;
+  background-image: url('../../Hero2.png');
+}
+// }

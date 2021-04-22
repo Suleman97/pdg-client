@@ -1,0 +1,27 @@
+.feature-section {
+  background-color: #1d2128;
+  padding: 7.4rem 27.4rem;
+  &__title {
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6rem;
+    line-height: 6.9rem;
+    padding-top: 7.4rem;
+    color: #ffffff !important;
+  }
+  &__features {
+    color: #ffffff;
+    display: flex;
+  }
+  &__description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.265rem;
+    line-height: 2.8rem;
+    color: #ffffff;
+  }
+  &__box {
+    // display: flex;
+  }
+}
