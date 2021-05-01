@@ -1,5 +1,6 @@
 import { Typography, Row, Col } from 'antd';
 import clsx from 'clsx';
+import propTypes from 'prop-types';
 import './Hero.styles.scss';
 
 export const Hero = ({
@@ -28,3 +29,11 @@ export const Hero = ({
     </div>
   </div>
 );
+
+Hero.propTypes = {
+  title: propTypes.string,
+  description: propTypes.string,
+  button1: propTypes.element,
+  button2: propTypes.element,
+  isLeftToRight: propTypes.bool,
+};

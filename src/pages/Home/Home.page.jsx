@@ -3,8 +3,6 @@ import { Hero, Detail, Features } from './Sections';
 import './Home.styles.scss';
 import d1 from './detail1.png';
 import d2 from './detail2.png';
-import h1 from './Hero.png';
-import h2 from './Hero2.png';
 
 const details = [
   {
@@ -47,7 +45,7 @@ const Home = () => (
     {/* <Hero /> */}
     <Hero {...heroProps} />
     {details.map((detail) => (
-      <Detail {...detail} />
+      <Detail key={detail.title} {...detail} />
     ))}
     <Features />
     <Hero {...heroProps} isLeftToRight />

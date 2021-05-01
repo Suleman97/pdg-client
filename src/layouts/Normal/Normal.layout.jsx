@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { pages } from 'pages';
+import { pages, NotFound } from 'pages';
 import { Header, Footer } from 'components';
 
 export const NormalLayout = () => (
@@ -17,6 +17,7 @@ export const NormalLayout = () => (
               exact
             />
           ))}
+          <Route component={NotFound} />
         </Switch>
       </Suspense>
     </div>

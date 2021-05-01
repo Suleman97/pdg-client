@@ -13,18 +13,22 @@ import {
 
 const features1 = [
   {
+    id: 1,
     icon: <Star />,
     description: 'Quality of members',
   },
   {
+    id: 2,
     icon: <Support />,
     description: 'Great customer service',
   },
   {
+    id: 3,
     icon: <Clean />,
     description: 'Simple, modern interface',
   },
   {
+    id: 4,
     icon: <InfinityIcon />,
     description: 'Limitless options for what people are seeking',
   },
@@ -32,18 +36,22 @@ const features1 = [
 
 const features2 = [
   {
+    id: 1,
     icon: <Free />,
     description: 'Robust free version',
   },
   {
+    id: 2,
     icon: <Secuirty />,
     description: 'Great customer service',
   },
   {
+    id: 3,
     icon: <Swipe />,
     description: 'Addictive swiping feature',
   },
   {
+    id: 4,
     icon: <Heart />,
     description: 'Fun & inclusive interface',
   },
@@ -60,6 +68,7 @@ export const Features = () => (
       <Col span={12}>
         {features1.map((feature) => (
           <div
+            key={feature.id}
             style={{
               display: 'flex',
               gap: '10px',
@@ -77,6 +86,7 @@ export const Features = () => (
       <Col span={12}>
         {features2.map((feature) => (
           <div
+            key={feature.id}
             style={{
               display: 'flex',
               gap: '10px',

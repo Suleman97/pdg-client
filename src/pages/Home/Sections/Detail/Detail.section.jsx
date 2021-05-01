@@ -1,5 +1,6 @@
 import { Row, Col, Typography } from 'antd';
 import clsx from 'clsx';
+import PropTypes from 'prop-types';
 import './Detail.styles.scss';
 
 export const Detail = ({
@@ -35,3 +36,12 @@ export const Detail = ({
     </Row>
   </div>
 );
+
+Detail.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  isLight: PropTypes.bool,
+  isRightToLeft: PropTypes.bool,
+  img: PropTypes.string,
+  button: PropTypes.element,
+};

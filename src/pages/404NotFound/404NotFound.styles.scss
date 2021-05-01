@@ -1,0 +1,36 @@
+.page-body {
+  background: #1d2128;
+  min-height: 100vh;
+  padding: 18.3rem 0rem;
+  position: relative;
+  .bg-and-text-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 78rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    .title {
+      font-size: 20rem;
+      color: white;
+      margin-bottom: 3rem;
+    }
+    .para-text {
+      font-size: 4rem;
+      color: white;
+      margin-bottom: 3rem;
+    }
+    .btn-return {
+      width: 45.9rem;
+    }
+  }
+}
