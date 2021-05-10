@@ -1,0 +1,44 @@
+.faq-content {
+  &__title {
+    text-align: center;
+    margin-top: 4.4rem;
+    font-family: Oranienbaum;
+    font-size: 9.595rem;
+    line-height: 11.1rem;
+    color: #1d2128;
+    margin-bottom: 3rem;
+  }
+  &__description {
+    text-align: center;
+    font-size: 2.265rem;
+    line-height: 2.8rem;
+    color: #1d2128;
+  }
+  &__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 120.2rem;
+    // height: 6rem;
+    background: #1d2128;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin: auto;
+    // margin: 0 11.9rem 0 11.9rem;
+
+    &-content {
+      font-weight: 600;
+      font-size: 1.8662rem;
+      color: #ffffff;
+      margin: 2rem 0 2rem 2rem;
+    }
+  }
+}
+.toggle {
+  background: transparent;
+  color: #ffffff;
+  float: right;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  font-size: 3rem;
+}
